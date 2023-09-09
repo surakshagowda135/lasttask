@@ -11,6 +11,6 @@ elif [[ age > 20 ]] ; then
 elif [[ age > 60 ]] ; then
 	echo "oldage"
 else 
-	echo "NA"
+	echo "not applicable"
 fi
 
