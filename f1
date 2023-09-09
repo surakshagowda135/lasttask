@@ -2,6 +2,7 @@
 
 if [ -e /home/ec2-user/shell/f3 ];
 then 
+	cat /home/ec2-user/shell/f3 	
 	echo "file exist"
 else 
 	echo "file not exist"
