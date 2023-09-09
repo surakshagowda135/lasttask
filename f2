@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "enter the salary"
+read salary
+if [[ $salary < 30000 ]] ; then
+	echo "No tax"
+elif [[ $salary > 30000 || $salary < 60000 ]]; then 
+	echo " add 10% tax"
+elif [[ $salary > 60000 ]] ; then
+	echo " add 15% tax "
+else
+	echo "NA"
+fi
